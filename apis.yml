@@ -1,7 +1,16 @@
 aid: nexa3d
 name: Nexa3D
-description: 'Nexa3D is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Nexa3D was a Ventura, California additive-manufacturing company that built
+  ultrafast photopolymer 3D printers (NXE 400, XiP, XiP Pro) around its Lubricant Sublayer
+  Photo-curing (LSPc) process, QLS selective-laser-sintering systems, and the NexaX print-preparation
+  and print-management software. The company disclosed severe funding challenges in late 2024,
+  withdrew from Formnext, scaled back operations, and in July 2025 sold select assets —
+  intellectual property, inventory and equipment, but not personnel — to Stratasys, with
+  customer support and materials continuity moving to Stratasys subsidiary iSQUARED. Nexa3D
+  no longer operates as an independent company: nexa3d.com now 301-redirects to a third-party
+  additive-manufacturing materials marketplace, and no public developer portal, API reference,
+  or machine-readable specification (OpenAPI, AsyncAPI, GraphQL SDL, MCP manifest, agent card)
+  was found on any Nexa3D host, live or archived.'
 url: https://raw.githubusercontent.com/api-evangelist/nexa3d/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +21,12 @@ created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- 3D Printing
+- Additive Manufacturing
+- Manufacturing
+- Hardware
+- Industrial
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,3 +36,35 @@ maintainers:
 common:
 - type: Website
   url: https://forgeglobal.com/nexa3d_stock/
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    Nexa3D sold its IP, inventory and equipment to Stratasys in July 2025 and stopped
+    operating; nexa3d.com now 301-redirects off-brand to the am-material-marketplace /
+    iAM Marketplace storefront, its docs/api/developer subdomains no longer resolve in
+    DNS, and its GitHub organization has zero public repositories, so there is no API
+    surface left to profile.
+  evidence:
+  - url: https://nexa3d.com/
+    status: 301
+  - url: https://nexa3d.com/openapi.json
+    status: 404
+  - url: https://nexa3d.com/llms.txt
+    status: 404
+  - url: https://nexa3d.com/.well-known/agent-card.json
+    status: 404
+  - url: https://nexa3d.com/.well-known/agent.json
+    status: 404
+  - url: https://nexa3d.com/.well-known/security.txt
+    status: 404
+  - url: https://www.am-material-marketplace.com/
+    status: 301
+  - url: https://github.com/nexa3d
+    status: 200
+  checked: '2026-08-04'
