@@ -46,7 +46,7 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/nexa3d_stock/
+  url: https://nexa3d.com
 x-enrichment:
   date: '2026-08-04'
   status: minimal
