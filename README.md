@@ -64,5 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Nexa3D is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/nexa3d_stock/
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
+
+Nexa3D was a Ventura, California additive-manufacturing company that built ultrafast photopolymer 3D printers (NXE 400, XiP, XiP Pro) around its Lubricant Sublayer Photo-curing (LSPc) process, QLS selective-laser-sintering systems, and the NexaX print-preparation and print-management software. The company disclosed severe funding challenges in late 2024, withdrew from Formnext, scaled back operations, and in July 2025 sold select assets — intellectual property, inventory and equipment, but not personnel — to Stratasys, with customer support and materials continuity moving to Stratasys subsidiary iSQUARED. Nexa3D no longer operates as an independent company: nexa3d.com now 301-redirects to a third-party additive-manufacturing materials marketplace, and no public developer portal, API reference, or machine-readable specification (OpenAPI, AsyncAPI, GraphQL SDL, MCP manifest, agent card) was found on any Nexa3D host, live or archived.
+
+**Areas:** Company · 3D Printing · Manufacturing · Hardware · Industrial · Defunct
+
+## Nexa3D on APIs.io (historical record)
+
+Everything profiled for Nexa3D is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nexa3d/](https://apis.io/providers/nexa3d/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://nexa3d.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nexa3D: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nexa3d/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
